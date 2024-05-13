@@ -2,7 +2,7 @@ declare module 'cypress-light-theme' {
   /**
    * Sets the theme of the Cypress command log, using the environment settings.
    * Defaults to `system`. Can be set to `light` or `dark` using the `THEME` configuration.
-   * (Alternatively, the `CYRPRESS_THEME` environment variable, from the command line).
+   * (Alternatively, the `CYPRESS_THEME` environment variable, from the command line).
    * 
    * @example
    ```
