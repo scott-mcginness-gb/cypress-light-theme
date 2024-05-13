@@ -395,6 +395,31 @@ function addStyleEL() {
     background-color: #B7E7F0 !important
   }
 
+  span.reporter-tag.reporter-tag-content.successful-status {
+    color: #69d3a7 !important;
+  }
+  span.reporter-tag.reporter-tag-content.warned-status {
+    color: #edbb4a !important;
+  }
+  span.reporter-tag.reporter-tag-content.route.command-interceptions {
+    color: #e1e3ed !important;
+  }
+  span.reporter-tag.reporter-tag-content.route.command-interceptions .status {
+    color: #e1e3ed !important;
+  }
+  span.reporter-tag.reporter-tag-content.route.command-interceptions em.no-alias {
+    color: #e1e3ed !important;
+  }
+  span.reporter-tag.reporter-tag-content.route.command-alias {
+    color: #e1e3ed !important;
+  }
+  span.reporter-tag.reporter-tag-content.route.route-alias-name {
+    color: #e1e3ed !important;
+  }
+  .sessions-container .session-content .session-item-wrapper:hover {
+    background-color: #f3f4fa !important;
+  }
+
   `
   reporterEl.appendChild(styleEl)
 }
