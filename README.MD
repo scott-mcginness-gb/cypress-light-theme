@@ -54,6 +54,19 @@ module.exports = defineConfig({
 
 This can be overridden by setting `CYPRESS_THEME` from the command line. [Learn more about how environment variables work in Cypress](https://on.cypress.io/environment-variables).
 
+### Types
+
+To add [TypeScript support](https://www.typescriptlang.org/tsconfig/#types) for this module, you may need to add this project name to your `tsconfig.json`:
+```json
+{
+  "compilerOptions": {
+    "types": [
+      "cypress-light-theme"
+    ]
+  }
+}
+```
+
 ## Development
 
 ```sh
